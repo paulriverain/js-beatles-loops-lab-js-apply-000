@@ -1,4 +1,5 @@
 // add solution here
+
 function theBeatlesPlay(musicians, instruments){
   let theyPlay = [];
   for (let i = 0; i < musicians.length; i++){
@@ -7,13 +8,12 @@ function theBeatlesPlay(musicians, instruments){
 return theyPlay
 }
 
-function johnLennonFacts(n){
-  let facts = n;
+function johnLennonFacts(facts){
   let newFacts = [];
-  let i =0;
+  let i = 0;
   while (i < facts.length){
     newFacts.push(facts[i]+"!!!")
-    i++
+    i++;
   }
 return newFacts
 }
